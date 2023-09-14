@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+    <link rel="stylesheet" href="me_recibi.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>¿Me recibí?</title>
+</head>
+<body>
+    <script src="me_recibi.js"></script>
+    <h1 id="title">Ingeniero en Sistemas de Información</h1>
+    <form>
+        <div class="row">
+            <div class="column">
+                <h2>Nivel 1</h2>
+                <input type="checkbox" id="q"   onclick="add(id)">  <label for="q">Quimica</label>                                  <br>
+                <input type="checkbox" id="md"  onclick="add(id)">  <label for="md">Matematica Discreta</label>                     <br>
+                <input type="checkbox" id="aed" onclick="add(id)">  <label for="aed">Algoritmos y Estructuras de Datos</label>      <br>
+                <input type="checkbox" id="adc" onclick="add(id)">  <label for="adc">Arquitectura de Computadores</label>           <br>
+                <input type="checkbox" id="syo" onclick="add(id)">  <label for="syo">Sistemas y Organizaciones</label>              <br>
+                <input type="checkbox" id="aga" onclick="add(id)">  <label for="aga">Algebra y Geometria Analitica</label>          <br>
+                <input type="checkbox" id="am1" onclick="add(id)">  <label for="am1">Analisis Matematico 1</label>                  <br>
+                <input type="checkbox" id="iys" onclick="add(id)">  <label for="iys">Ingenieria y Sociedad</label>                  <br>
+            </div>
+            <div class="column">
+                <h2>Nivel 2</h2>
+                <input type="checkbox" id="f1"  onclick="add(id)">  <label for="f1">Fisica 1</label>                                <br>
+                <input type="checkbox" id="sdr" onclick="add(id)">  <label for="sdr">Sistemas de Representacion</label>             <br>
+                <input type="checkbox" id="i1"  onclick="add(id)">  <label for="i1">Ingles Tecnico 1</label>                        <br>
+                <input type="checkbox" id="ads" onclick="add(id)">  <label for="ads">Analisis de Sistemas</label>                   <br>
+                <input type="checkbox" id="ssl" onclick="add(id)">  <label for="ssl">Sistemas y Semantica de los Lenguajes</label>  <br>
+                <input type="checkbox" id="pdp" onclick="add(id)">  <label for="pdp">Paradigmas de Programacion</label>             <br>
+                <input type="checkbox" id="am2" onclick="add(id)">  <label for="am2">Analisis Matematico 2</label>                  <br>
+                <input type="checkbox" id="pye" onclick="add(id)">  <label for="pye">Probabilidad y Estadistica</label>             <br>
+            </div>
+            <div class="column">
+                <h2>Nivel 3</h2>
+                <input type="checkbox" id="so"  onclick="add(id)">  <label for="so">Sistemas Operativos</label>                     <br>
+                <input type="checkbox" id="ds"  onclick="add(id)">  <label for="ds">Diseño de Sistemas</label>                      <br>
+                <input type="checkbox" id="gd"  onclick="add(id)">  <label for="gd">Gestion de Datos</label>                        <br>
+                <input type="checkbox" id="ms"  onclick="add(id)">  <label for="ms">Matematica Superior</label>                     <br>
+                <input type="checkbox" id="e"   onclick="add(id)">  <label for="e">Economia</label>                                 <br>
+                <input type="checkbox" id="f2"  onclick="add(id)">  <label for="f2">Fisica 2</label>                                <br>
+                <input type="checkbox" id="i2"  onclick="add(id)">  <label for="i2">Ingles Tecnico 2</label>                        <br>
+                <!--ELECTIVAS-->
+                <input type="checkbox" id="e1"  onclick="add(id)">  <label for="e1">Electiva 1</label>                              <br>
+                <input type="checkbox" id="e2"  onclick="add(id)">  <label for="e2">Electiva 2</label>                              <br>
+            </div>
+            <div class="column">
+                <h2>Nivel 4</h2>
+                <input type="checkbox" id="pps" onclick="add(id)">  <label for="pps">Practica Profesional Supervisada</label>       <br>
+                <input type="checkbox" id="c"   onclick="add(id)">  <label for="c">Comunicaciones</label>                           <br>
+                <input type="checkbox" id="ri"  onclick="add(id)">  <label for="ri">Redes de Informacion</label>                    <br>
+                <input type="checkbox" id="ar"  onclick="add(id)">  <label for="ar">Administracion de Recursos</label>              <br>
+                <input type="checkbox" id="io"  onclick="add(id)">  <label for="io">Investigacion Operativa</label>                 <br>
+                <input type="checkbox" id="tc"  onclick="add(id)">  <label for="tc">Teoria de Control</label>                       <br>
+                <input type="checkbox" id="is"  onclick="add(id)">  <label for="is">Ingenieria en Software</label>                  <br>
+                <input type="checkbox" id="s"   onclick="add(id)">  <label for="s">Simulacion</label>                               <br>
+                <input type="checkbox" id="l"   onclick="add(id)">  <label for="l">Legislacion</label>                              <br>
+                <!--ELECTIVAS-->
+                <input type="checkbox" id="e3"  onclick="add(id)">   <label for="e3">Electiva 3</label>                             <br>
+                <input type="checkbox" id="e4"  onclick="add(id)">   <label for="e4">Electiva 4</label>                             <br>           
+            </div>
+            <div class="column">
+                <h2>Nivel 5</h2>
+                <input type="checkbox" id="sg"  onclick="add(id)">  <label for="sg">Sistemas de Gestion</label>                     <br>
+                <input type="checkbox" id="pf"  onclick="add(id)">  <label for="pf">Proyecto Final</label>                          <br>
+                <input type="checkbox" id="ag"  onclick="add(id)">  <label for="ag">Administracion General</label>                  <br>
+                <input type="checkbox" id="ia"  onclick="add(id)">  <label for="ia">Inteligencia Artificial</label>                 <br>
+                <!--ELECTIVAS-->
+                <input type="checkbox" id="e5"  onclick="add(id)">  <label for="e5">Electiva 5</label>                              <br>                
+                <input type="checkbox" id="e6"  onclick="add(id)">  <label for="e6">Electiva 6</label>                              <br>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,49 @@
+﻿body {
+    font-family: Roboto;
+    background-color: white;
+}
+
+.row {
+    display: flex;
+    padding-left: 5vw;
+}
+
+.column {
+    flex: 20%;
+}
+
+h1 {
+    margin: 0;
+    padding: 15vh 0;
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: -3px;
+    background: linear-gradient(to right, red 50%, blue 50%);
+    background-size: 200% 100%;
+    background-position: -97vw;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+label {
+    position: relative;
+    bottom: 1px;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 15vw;
+        padding: 5vh 0;
+    }
+
+    .row {
+        display: block;
+    }
+}
